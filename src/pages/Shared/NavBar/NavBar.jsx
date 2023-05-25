@@ -30,7 +30,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar fixed z-50  md:flex justify-between px-6 nav-bg max-w-screen-2xl boss-bg text-white py-4 ">
+      <div className="navbar fixed z-50  md:flex justify-between px-6 nav-bg max-w-screen-2xl boss-bg text-white md:py-4 ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -57,8 +57,8 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="text-white">
-            <p className=" text-2xl font-bold font-[Cinzel]">BISTRO BOSS</p>
-            <p className="normal-case font-[Cinze] tracking-widest font-semibold text-xl text-center">
+            <p className=" md:text-2xl font-bold font-[Cinzel]">BISTRO BOSS</p>
+            <p className="normal-case font-[Cinze] tracking-widest font-semibold md:text-xl text-center">
               Restaurant
             </p>
           </div>
