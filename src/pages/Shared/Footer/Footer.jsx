@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container -auto  py-8">
           <div className="flexjustify-center">
             {/* Left section - Contact information */}
-            <div className="w-full text-center text-white md:w-auto mb-4 md:mb-0">
+            <div className="w-full text-center text-white md:w-auto mb-4 md:mb-0 font-[Inter]">
               <div className="  text-white font-semibold text-2xl">
                 Contact Us
               </div>
