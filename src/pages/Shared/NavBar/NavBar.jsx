@@ -1,10 +1,15 @@
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   const navOption = (
     <>
-      <li className="font-[Inter]">
-        <a>Item 1</a>
+      <li className="text-xl">
+        <NavLink to='/' 
+        style={isActive => ({
+          color: isActive ? "#EEFF25" : "white",
+          backgroundColor:isActive ?"transparent":""
+        })}>Home</NavLink>
       </li>
 
       <li>
@@ -13,11 +18,14 @@ const NavBar = () => {
       <li>
         <a>Item 3</a>
       </li>
-      <li>
-        <a>Item 3</a>
-      </li>
-      <li>
-        <a>Item 3</a>
+      
+      <li className="text-xl">
+        <NavLink to='/menu' 
+        
+        style={isActive => ({
+          color: isActive ? "#EEFF25" : "white",
+          backgroundColor:isActive ?"transparent":""
+        })}>Our Menu</NavLink>
       </li>
       <li>
         <a>Item 3</a>
