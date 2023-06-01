@@ -15,3 +15,7 @@ export default {
 }
 
 
+// module.exports = {
+//   darkMode: 'class',
+//   // ...
+// }

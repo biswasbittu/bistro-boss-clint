@@ -22,7 +22,6 @@ const Cover = ({ img,title }) => {
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. 
             </p>
-            
           </div>
         </div>
       </div>
