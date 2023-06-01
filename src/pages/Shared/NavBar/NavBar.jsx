@@ -23,12 +23,17 @@ const NavBar = () => {
         <NavLink to='/menu' 
         
         style={isActive => ({
-          color: isActive ? "#EEFF25" : "white",
+          color: isActive?"#EEFF25" : "white",
           backgroundColor:isActive ?"transparent":""
         })}>Our Menu</NavLink>
       </li>
-      <li>
-        <a>Item 3</a>
+      <li className="text-xl">
+        <NavLink to='/order' 
+        
+        style={isActive => ({
+          color: isActive ? "#EEFF25" : "white",
+          backgroundColor:isActive ?"transparent":""
+        })}>Order Food</NavLink>
       </li>
       <li>
         <a>Item 3</a>
