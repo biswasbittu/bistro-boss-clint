@@ -28,7 +28,7 @@ const NavBar = () => {
         })}>Our Menu</NavLink>
       </li>
       <li className="text-xl">
-        <NavLink to='/order' 
+        <NavLink to='/order/salad' 
         
         style={isActive => ({
           color: isActive ? "#EEFF25" : "white",
